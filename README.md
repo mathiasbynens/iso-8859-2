@@ -1,6 +1,6 @@
 # iso-8859-2 [![Build status](https://travis-ci.org/mathiasbynens/iso-8859-2.svg?branch=master)](https://travis-ci.org/mathiasbynens/iso-8859-2) [![Dependency status](https://gemnasium.com/mathiasbynens/iso-8859-2.svg)](https://gemnasium.com/mathiasbynens/iso-8859-2)
 
-_iso-8859-2_ is robust JavaScript implementation of [the iso-8859-2 character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#iso-8859-2).
+_iso-8859-2_ is a robust JavaScript implementation of [the iso-8859-2 character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#iso-8859-2).
 
 This encoding is known under the following names: csisolatin2, iso-8859-2, iso-ir-101, iso8859-2, iso88592, iso_8859-2, iso_8859-2:1987, l2, latin2, and latin2.
 
