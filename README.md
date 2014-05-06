@@ -64,6 +64,10 @@ require(
 
 A string representing the semantic version number.
 
+### `iso88592.labels`
+
+An array of strings, each representing a [label](http://encoding.spec.whatwg.org/#label) for this encoding.
+
 ### `iso88592.encode(input, options)`
 
 This function takes a plain text string (the `input` parameter) and encodes it according to iso-8859-2. The return value is a ‘byte string’, i.e. a string of which each item represents an octet as per iso-8859-2.
