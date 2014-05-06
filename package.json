@@ -1,6 +1,6 @@
 {
 	"name": "iso-8859-2",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "A robust iso-8859-2 encoder/decoder written in JavaScript.",
 	"homepage": "http://mths.be/iso-8859-2",
 	"main": "iso88592.js",
