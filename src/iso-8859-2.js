@@ -1,4 +1,4 @@
-/*! http://mths.be/iso-8859-2 v<%= version %> by @mathias | MIT license */
+/*! https://mths.be/iso-8859-2 v<%= version %> by @mathias | MIT license */
 ;(function(root) {
 
 	// Detect free variables `exports`.
