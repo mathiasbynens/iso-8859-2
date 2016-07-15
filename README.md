@@ -104,6 +104,8 @@ var text = iso88592.decode(encodedData, {
 // instead of replacing it with U+FFFD in the output, an error is thrown.
 ```
 
+For decoding a buffer (e.g. from `fs.readFile`) use `buffer.toString('binary')` to get the byte string which `decode` takes.
+
 ## Support
 
 _iso-8859-2_ is designed to work in at least Node.js v0.10.0, io.js v1.0.0, Narwhal 0.3.2, RingoJS 0.8-0.11, PhantomJS 1.9.0, Rhino 1.7RC4, as well as old and modern versions of Chrome, Firefox, Safari, Opera, Edge, and Internet Explorer.
