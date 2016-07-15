@@ -1,19 +1,22 @@
 # Any copyright is dedicated to the Public Domain.
-# http://creativecommons.org/publicdomain/zero/1.0/
+# https://creativecommons.org/publicdomain/zero/1.0/
 #
-# For details on index-iso-8859-2.txt see the Encoding Standard
+# For details on index index-iso-8859-2.txt see the Encoding Standard
 # https://encoding.spec.whatwg.org/
+#
+# Identifier: 9569c67f22d0b57790e1c407c6eecf227e4562322dc296de43cdab7a0152ec73
+# Date: 2016-01-20
 
-	0	0x0080	 (<control>)
-	1	0x0081	 (<control>)
-	2	0x0082	 (<control>)
-	3	0x0083	 (<control>)
-	4	0x0084	 (<control>)
-	5	0x0085	 (<control>)
-	6	0x0086	 (<control>)
-	7	0x0087	 (<control>)
-	8	0x0088	 (<control>)
-	9	0x0089	 (<control>)
+  0	0x0080	 (<control>)
+  1	0x0081	 (<control>)
+  2	0x0082	 (<control>)
+  3	0x0083	 (<control>)
+  4	0x0084	 (<control>)
+  5	0x0085	 (<control>)
+  6	0x0086	 (<control>)
+  7	0x0087	 (<control>)
+  8	0x0088	 (<control>)
+  9	0x0089	 (<control>)
  10	0x008A	 (<control>)
  11	0x008B	 (<control>)
  12	0x008C	 (<control>)
