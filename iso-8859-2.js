@@ -1,4 +1,4 @@
-/*! https://mths.be/iso-8859-2 v1.0.1 by @mathias | MIT license */
+/*! https://mths.be/iso-8859-2 v1.0.2 by @mathias | MIT license */
 ;(function() {
 
 	var object = {};
@@ -110,7 +110,7 @@
 			'l2',
 			'latin2'
 		],
-		version: '1.0.1',
+		version: '1.0.2',
 	};
 
 	module.exports = iso88592;
