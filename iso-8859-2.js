@@ -1,4 +1,4 @@
-/*! https://mths.be/iso-8859-2 v1.0.2 by @mathias | MIT license */
+/*! https://mths.be/iso-8859-2 v1.1.0 by @mathias | MIT license */
 ;(function() {
 
 	const stringFromCharCode = String.fromCharCode;
@@ -102,7 +102,7 @@
 			'l2',
 			'latin2'
 		],
-		version: '1.0.2',
+		version: '1.1.0',
 	};
 
 	module.exports = iso88592;
