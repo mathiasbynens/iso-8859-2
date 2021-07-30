@@ -1,4 +1,4 @@
-/*! https://mths.be/iso-8859-2 v1.1.0 by @mathias | MIT license */
+/*! https://mths.be/iso-8859-2 v2.0.0 by @mathias | MIT license */
 
 const stringFromCharCode = String.fromCharCode;
 
