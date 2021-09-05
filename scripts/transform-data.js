@@ -58,7 +58,7 @@ fs.writeFileSync(
 // tests/tests.src.js → tests/tests.js
 const TEST_TEMPLATE = fs.readFileSync('./tests/tests.src.mjs', 'utf8');
 const createTest = template(TEST_TEMPLATE, {
-	interpolate: /<%=([\s\S]+?)%>/g,
+	interpolate: /<\%=([\s\S]+?)%\>/g,
 });
 const testCode = createTest(require('./export-data.js'));
 fs.writeFileSync('./tests/tests.mjs', testCode);
@@ -66,7 +66,7 @@ fs.writeFileSync('./tests/tests.mjs', testCode);
 // src/iso-8859-2.src.mjs -> iso-8859-2.mjs
 const LIB_TEMPLATE = fs.readFileSync('./src/iso-8859-2.src.mjs', 'utf8');
 const createLib = template(LIB_TEMPLATE, {
-	interpolate: /<%=([\s\S]+?)%>/g,
+	interpolate: /<\%=([\s\S]+?)%\>/g,
 });
 const libCode = createLib(require('./export-data.js'));
 fs.writeFileSync('./iso-8859-2.mjs', libCode);
